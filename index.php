@@ -35,7 +35,7 @@ $conn = Connect();
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="index.php">
-                  Online Car Rental </a>
+                  Online Car Rental</a>
             </div>
 
             <?php
@@ -129,7 +129,7 @@ $conn = Connect();
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading" style="color: white">Car Rental</h1>
                         <p class="intro-text">
-                            Online Car Rental And Lending Service
+                            Online Car Lending And Borrowing Service
                         </p>
                         <a href="#sec2" class="btn btn-circle page-scroll blink">
                             <i class="fa fa-angle-double-down animated"></i>
