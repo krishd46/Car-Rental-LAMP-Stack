@@ -195,13 +195,11 @@ $conn = Connect();
 </div>
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-    <h3 class="w3-center">lorem ipsum</h3>
+    <h3 class="w3-center">Feel free to share your feedback!</h3>
     <p class="w3-center"><em>Feedback</em></p>
 
     <div class="w3-row w3-padding-32 w3-section">
         <div class="w3-col m4 w3-container">
-            <!-- Add Google Maps -->
-            <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
         </div>
         <div class="w3-col m8 w3-panel">
             <div class="w3-large w3-margin-bottom">
@@ -243,34 +241,7 @@ $conn = Connect();
         </div>
     </div>
 </footer>
-<script>
-    function myMap() {
-        myCenter = new google.maps.LatLng(25.614744, 85.128489);
-        var mapOptions = {
-            center: myCenter,
-            zoom: 12,
-            scrollwheel: true,
-            draggable: true,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 
-        var marker = new google.maps.Marker({
-            position: myCenter,
-        });
-        marker.setMap(map);
-    }
-</script>
-<script>
-    function sendGaEvent(category, action, label) {
-        ga('send', {
-            hitType: 'event',
-            eventCategory: category,
-            eventAction: action,
-            eventLabel: label
-        });
-    };
-</script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCuoe93lQkgRaC7FB8fMOr_g1dmMRwKng&callback=myMap" type="text/javascript"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
