@@ -71,7 +71,7 @@ if(!isset($_SESSION['login_customer'])){
             ?>
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
-                    <li>
+                    <li> 
                         <a href="index.php">Home</a>
                     </li>
                     <li>
