@@ -188,11 +188,6 @@ $conn = Connect();
     </div>
 </div>
 
-<div style="position:relative;">
-    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-        <p>Click here for the latest deals on your bookings</p>
-    </div>
-</div>
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
 
