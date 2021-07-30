@@ -195,6 +195,7 @@ $conn = Connect();
 </div>
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
+
     <h3 class="w3-center">Feel free to share your feedback!</h3>
     <p class="w3-center"><em>Feedback</em></p>
 
