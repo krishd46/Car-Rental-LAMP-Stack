@@ -127,8 +127,8 @@ $ac_price_per_day = $conn->real_escape_string($_POST['ac_price_per_day']);
 $non_ac_price_per_day = $conn->real_escape_string($_POST['non_ac_price_per_day']);
 $car_availability = "yes";
 
-//$query = "INSERT into cars(car_name,car_nameplate,ac_price,non_ac_price,car_availability) VALUES('" . $car_name . "','" . $car_nameplate . "','" . $ac_price . "','" . $non_ac_price . "','" . $car_availability ."')";
-//$success = $conn->query($query);
+$query = "INSERT into cars(car_name,car_nameplate,ac_price,non_ac_price,car_availability) VALUES('" . $car_name . "','" . $car_nameplate . "','" . $ac_price . "','" . $non_ac_price . "','" . $car_availability ."')";
+$success = $conn->query($query);
 
 
 if (!empty($_FILES["uploadedimage"]["name"])) {
@@ -140,9 +140,9 @@ if (!empty($_FILES["uploadedimage"]["name"])) {
     $target_path = "assets/img/cars/".$imagename;
 
     if(move_uploaded_file($temp_name, $target_path)) {
-        //$query0="INSERT into cars (car_img) VALUES ('".$target_path."')";
-      //  $query0 = "UPDATE cars SET car_img = '$target_path' WHERE ";
-        //$success0 = $conn->query($query0);
+        $query0="INSERT into cars (car_img) VALUES ('".$target_path."')";
+        $query0 = "UPDATE cars SET car_img = '$target_path' WHERE ";
+        $success0 = $conn->query($query0);
 
         $query = "INSERT into cars(car_name,car_nameplate,car_img,ac_price,non_ac_price,ac_price_per_day,non_ac_price_per_day,car_availability) VALUES('" . $car_name . "','" . $car_nameplate . "','".$target_path."','" . $ac_price . "','" . $non_ac_price . "','" . $ac_price_per_day . "','" . $non_ac_price_per_day . "','" . $car_availability ."')";
         $success = $conn->query($query);

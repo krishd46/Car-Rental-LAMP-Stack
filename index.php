@@ -221,22 +221,6 @@ $conn = Connect();
         </div>
     </div>
 </div>
-<footer class="site-footer">
-    <div class="container">
-        <hr>
-        <div class="row">
-            <div class="col-sm-6">
-                <h5>© Mindscript</h5>
-            </div>
-            <div class="col-sm-6 social-icons">
-                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
-            </div>
-        </div>
-    </div>
-</footer>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCuoe93lQkgRaC7FB8fMOr_g1dmMRwKng&callback=myMap" type="text/javascript"></script>
 <script src="assets/js/jquery.min.js"></script>
