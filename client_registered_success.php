@@ -12,11 +12,11 @@
 
   <body>
 
-  <!--Back to top button..................................................................................-->
+  
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <span class="glyphicon glyphicon-chevron-up"></span>
     </button>
-  <!--Javacript for back to top button....................................................................-->
+  
     <script type="text/javascript">
       window.onscroll = function()
       {
@@ -37,7 +37,7 @@
       }
     </script>
 
-  <!-- Navigation -->
+  
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -47,7 +47,7 @@
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
 
             <?php
                 if(isset($_SESSION['login_client'])){
@@ -124,9 +124,9 @@
             </div>
                 <?php   }
                 ?>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container -->
+        
     </nav>
 
 <?php

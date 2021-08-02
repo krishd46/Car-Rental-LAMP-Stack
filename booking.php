@@ -23,8 +23,8 @@ if(!isset($_SESSION['login_customer'])){
 <body ng-app=""> 
 
 
-      <!-- Navigation -->
-     <!-- Navigation -->
+      
+     
      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -34,7 +34,7 @@ if(!isset($_SESSION['login_customer'])){
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
 
             <?php
                 if(isset($_SESSION['login_client'])){
@@ -111,9 +111,9 @@ if(!isset($_SESSION['login_customer'])){
             </div>
                 <?php   }
                 ?>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container -->
+        
     </nav>
     
 <div class="container" style="margin-top: 65px;" >
@@ -141,21 +141,21 @@ if(!isset($_SESSION['login_customer'])){
 
         ?>
 
-          <!-- <div class="form-group"> -->
+          
               <h5> Car:&nbsp;  <?php echo($car_name);?></h5>
-         <!-- </div> -->
          
-          <!-- <div class="form-group"> -->
+         
+          
             <h5> Vehicle Number:&nbsp; <?php echo($car_nameplate);?></h5>
-          <!-- </div>      -->
-        <!-- <div class="form-group"> -->
+          
+        
         <?php $today = date("Y-m-d") ?>
           <label><h5>Start Date:</h5></label>
             <input type="date" name="rent_start_date" min="<?php echo($today);?>" required="">
             &nbsp;
           <label><h5>End Date:</h5></label>
           <input type="date" name="rent_end_date" min="<?php echo($today);?>" required="">
-        <!-- </div>      -->
+        
         
         <h5> Choose your car type:  &nbsp;
             <input onclick="reveal()" type="radio" name="radio" value="ac" ng-model="myVar"> AC &nbsp;
@@ -164,19 +164,19 @@ if(!isset($_SESSION['login_customer'])){
         
         <div ng-switch="myVar"> 
         <div ng-switch-default>
-                    <!-- <div class="form-group"> -->
+                    
                 <h5>Fare: <h5>    
-                <!-- </div>    -->
+                
                      </div>
                     <div ng-switch-when="ac">
-                    <!-- <div class="form-group"> -->
+                    
                 <h5>Fare: <?php echo("₹" . $ac_price . "/km and ₹" . $ac_price_per_day . "/day");?><h5>    
-                <!-- </div>    -->
+                
                      </div>
                      <div ng-switch-when="non_ac">
-                     <!-- <div class="form-group"> -->
+                     
                 <h5>Fare: <?php echo("₹" . $non_ac_price . "/km and ₹" . $non_ac_price_per_day . "/day");?><h5>    
-                <!-- </div>   -->
+                
                      </div>
         </div>
 
@@ -185,7 +185,7 @@ if(!isset($_SESSION['login_customer'])){
             <input onclick="reveal()" type="radio" name="radio1" value="days"> per day(s)
 
             <br><br>
-                <!-- <form class="form-group"> -->
+                
                 Choose a driver: &nbsp;
                 <select name="driver_id_from_dropdown" ng-model="myVar1">
                         <?php
@@ -212,7 +212,7 @@ if(!isset($_SESSION['login_customer'])){
                     }
                     ?>
                 </select>
-                <!-- </form> -->
+                
                 <div ng-switch="myVar1">
                 
 

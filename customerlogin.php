@@ -22,7 +22,7 @@ header("location: index.php"); //Redirecting
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <body background="assets/img/forcustomer.png">
-                 <!-- Navigation -->
+                 
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -32,7 +32,7 @@ header("location: index.php"); //Redirecting
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
 
             <?php
                 if(isset($_SESSION['login_client'])){
@@ -104,9 +104,9 @@ header("location: index.php"); //Redirecting
                         </div>
                         <?php   }
                 ?>
-                        <!-- /.navbar-collapse -->
+                        
         </div>
-        <!-- /.container -->
+        
     </nav>
 
         <div class="container">

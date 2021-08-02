@@ -8,11 +8,11 @@ $conn = Connect();
 ?>
 
   <head>
-    <!-- Required meta tags -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS -->
+    
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/user.css">
@@ -27,7 +27,7 @@ $conn = Connect();
   </head>
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation Bar -->
+    
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -117,9 +117,9 @@ $conn = Connect();
         <?php   }
         ?>
 
-        <!-- /.navbar-collapse -->
+        
     </div>
-    <!-- /.container -->
+    
 </nav>
 <div class="bgimg-1">
     <header class="intro">
@@ -188,7 +188,7 @@ $conn = Connect();
     </div>
 </div>
 
-<!-- Container (Contact Section) -->
+
 <div class="w3-content w3-container w3-padding-64" id="contact">
 
     <h3 class="w3-center">Feel free to share your feedback!</h3>
@@ -241,9 +241,9 @@ $conn = Connect();
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCuoe93lQkgRaC7FB8fMOr_g1dmMRwKng&callback=myMap" type="text/javascript"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<!-- Plugin JavaScript -->
+
 <script src="assets/js/jquery.easing.min.js"></script>
-<!-- Custom Theme JavaScript -->
+
 <script src="assets/js/theme.js"></script>
     
 

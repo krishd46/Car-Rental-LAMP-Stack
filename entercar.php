@@ -16,7 +16,7 @@ include('session_client.php'); ?>
 </head>
 <body>
 
-      <!-- Navigation -->
+      
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -26,7 +26,7 @@ include('session_client.php'); ?>
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
 
             <?php
                 if(isset($_SESSION['login_client'])){
@@ -98,9 +98,9 @@ include('session_client.php'); ?>
             </div>
                 <?php   }
                 ?>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container -->
+        
     </nav>
 
     <div class="container" style="margin-top: 65px;" >

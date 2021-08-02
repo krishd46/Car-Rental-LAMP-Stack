@@ -98,7 +98,7 @@ if(!isset($_SESSION['login_customer'])){
     }
 
 ?>
-<!-- Navigation -->
+
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -108,7 +108,7 @@ if(!isset($_SESSION['login_customer'])){
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
 
             <?php
                 if(isset($_SESSION['login_client'])){
@@ -185,9 +185,9 @@ if(!isset($_SESSION['login_customer'])){
             </div>
                 <?php   }
                 ?>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container -->
+        
     </nav>
     <div class="container">
         <div class="jumbotron">
@@ -257,7 +257,7 @@ if(!isset($_SESSION['login_customer'])){
     </div>
 </body>
 <?php } else { ?>
-    <!-- Navigation -->
+    
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -267,7 +267,7 @@ if(!isset($_SESSION['login_customer'])){
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
 
             <?php
                 if(isset($_SESSION['login_client'])){
@@ -344,9 +344,9 @@ if(!isset($_SESSION['login_customer'])){
             </div>
                 <?php   }
                 ?>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container -->
+        
     </nav>
     <div class="container">
 	<div class="jumbotron" style="text-align: center;">

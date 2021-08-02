@@ -17,7 +17,7 @@ $conn = Connect();
 <link rel="stylesheet" type="text/css" media="screen" href="assets/css/clientpage.css" />
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<!-- Navigation -->
+
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -27,7 +27,7 @@ $conn = Connect();
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
 
             <?php
                 if(isset($_SESSION['login_client'])){
@@ -104,9 +104,9 @@ $conn = Connect();
             </div>
                 <?php   }
                 ?>
-            <!-- /.navbar-collapse -->
+            
         </div>
-        <!-- /.container -->
+        
     </nav>
 <?php
 function dateDiff($start, $end) {

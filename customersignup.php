@@ -11,7 +11,7 @@
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/clientlogin.css">
 <body>
-     <!-- Navigation -->
+     
      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
             <div class="navbar-header">
@@ -21,7 +21,7 @@
                 <a class="navbar-brand page-scroll" href="index.php">
                    Online Car Rental </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
             <?php
                 if(isset($_SESSION['login_client'])){
             ?>
@@ -90,9 +90,9 @@
                         </div>
                         <?php   }
                 ?>
-                        <!-- /.navbar-collapse -->
+                        
         </div>
-        <!-- /.container -->
+        
     </nav>
     <div class="container">
         <div class="jumbotron">
