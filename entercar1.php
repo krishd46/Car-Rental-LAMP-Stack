@@ -127,8 +127,8 @@ $ac_price_per_day = $conn->real_escape_string($_POST['ac_price_per_day']);
 $non_ac_price_per_day = $conn->real_escape_string($_POST['non_ac_price_per_day']);
 $car_availability = "yes";
 
-$query = "INSERT into cars(car_name,car_nameplate,ac_price,non_ac_price,car_availability) VALUES('" . $car_name . "','" . $car_nameplate . "','" . $ac_price . "','" . $non_ac_price . "','" . $car_availability ."')";
-$success = $conn->query($query);
+//$query = "INSERT into cars(car_name,car_nameplate,ac_price,non_ac_price,car_availability) VALUES('" . $car_name . "','" . $car_nameplate . "','" . $ac_price . "','" . $non_ac_price . "','" . $car_availability ."')";
+//$success = $conn->query($query);
 
 
 if (!empty($_FILES["uploadedimage"]["name"])) {

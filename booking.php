@@ -22,8 +22,6 @@ if(!isset($_SESSION['login_customer'])){
 </head>
 <body ng-app=""> 
 
-
-      
      
      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation" style="color: black">
         <div class="container">
@@ -39,6 +37,7 @@ if(!isset($_SESSION['login_customer'])){
             <?php
                 if(isset($_SESSION['login_client'])){
             ?> 
+
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <li>
@@ -69,6 +68,7 @@ if(!isset($_SESSION['login_customer'])){
                 }
                 else if (isset($_SESSION['login_customer'])){
             ?>
+            
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <li> 
