@@ -169,15 +169,6 @@ header("location: index.php"); //Redirecting
             </div>
         </div>
     </body>
-    <footer class="site-footer">
-        <div class="container">
-            <hr>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h5>© Mindscript</h5>
-                </div>
-            </div>
-        </div>
-    </footer>
+   
 
     </html>
