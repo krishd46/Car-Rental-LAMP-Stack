@@ -120,7 +120,7 @@ header("location: index.php"); //Redirecting
 
         <div class="container" style="margin-top: -2%; margin-bottom: 2%;">
             <div class="col-md-5 col-md-offset-4">
-                <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
+               
                 <div class="panel panel-primary">
                     <div class="panel-heading"> Login </div>
                     <div class="panel-body">
@@ -155,6 +155,7 @@ header("location: index.php"); //Redirecting
 
                             <div class="row">
                                 <div class="form-group col-xs-4">
+                                <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
                                     <button class="btn btn-primary" name="submit" type="submit" value=" Login ">Submit</button>
 
                                 </div>

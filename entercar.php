@@ -3,6 +3,7 @@
 
 <?php 
 include('session_client.php'); ?> 
+
 <head>
 <link rel="shortcut icon" type="image/png" href="assets/img/P.png.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">

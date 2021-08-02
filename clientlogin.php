@@ -118,7 +118,6 @@ if(isset($_SESSION['login_client'])){
 
         <div class="container" style="margin-top: -2%; margin-bottom: 2%;">
             <div class="col-md-5 col-md-offset-4">
-                <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
                 <div class="panel panel-primary">
                     <div class="panel-heading"> Login </div>
                     <div class="panel-body">
@@ -143,6 +142,7 @@ if(isset($_SESSION['login_client'])){
                                     <label for="client_password"><span class="text-danger" style="margin-right: 5px;">*</span> Password: </label>
                                     <div class="input-group">
                                         <input class="form-control" id="client_password" type="password" name="client_password" placeholder="Password" required="">
+                                       
                                         <span class="input-group-btn">
                 <label class="btn btn-primary"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></label>
                                         </span>
@@ -153,6 +153,7 @@ if(isset($_SESSION['login_client'])){
 
                             <div class="row">
                                 <div class="form-group col-xs-4">
+                                <label style="margin-left: 5px;color: red;"><span> <?php echo $error;  ?> </span></label>
                                     <button class="btn btn-primary" name="submit" type="submit" value=" Login ">Submit</button>
 
                                 </div>
